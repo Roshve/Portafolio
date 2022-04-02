@@ -1,12 +1,14 @@
 <template>
-  <h2>hola</h2>
+  <port-left-menu />
 </template>
 
 <script>
+import PortLeftMenu from "../components/organism/PortLeftMenu.vue";
 export default {
-  name: 'PortHome'
+  components: { PortLeftMenu },
+  name: "PortHome",
 };
 </script>
-
 <style>
+
 </style>

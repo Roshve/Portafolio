@@ -9,6 +9,15 @@ import scriptSetup from 'unplugin-vue2-script-setup/vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  css: {
+    preprocessorOptions: {
+      scss: {
+        // example : additionalData: `@import "./src/design/styles/variables";`
+        // dont need include file extend .scss
+        additionalData: `@import "./src/assets/scss/variables";`
+      },
+    },
+  },
   plugins: [
     vue2({
       jsx: true,
