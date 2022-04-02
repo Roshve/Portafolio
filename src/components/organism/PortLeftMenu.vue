@@ -1,22 +1,22 @@
 <template>
   <aside class="side-bar">
     <div class="profile">
-      <img />
+      <img>
       <h4>Luis Cova</h4>
       <p>Front-End Developer</p>
       <ul>
         <li>
-          <a href="facebook.com"><img /></a>
+          <a href="facebook.com"><img></a>
         </li>
         <li>
-          <a href="linkedin.com"><img /></a>
+          <a href="linkedin.com"><img></a>
         </li>
         <li>
-          <a href="https://github.com/"><img /></a>
+          <a href="https://github.com/"><img></a>
         </li>
       </ul>
     </div>
-    <hr />
+    <hr>
     <div class="about">
       <ul>
         <li>
@@ -37,7 +37,7 @@
         </li>
       </ul>
     </div>
-    <hr />
+    <hr>
     <div class="languages">
       <h4>Languages</h4>
       <ul>
@@ -46,7 +46,7 @@
         <li>Spanish</li>
       </ul>
     </div>
-    <hr />
+    <hr>
     <div class="skills">
       <h4>Skills</h4>
       <ul>
@@ -57,7 +57,7 @@
         <li>WordPress</li>
       </ul>
     </div>
-    <hr />
+    <hr>
     <div class="extra-skills">
       <h4>Extra Skills</h4>
       <ul>
